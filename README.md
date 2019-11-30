@@ -4,6 +4,6 @@ You will find below :
 
 ## Getting Started
 
-In each folder, you will find a README file that give more details and instructions about the projects.  
+To know more about the FoodDatabase project, [Here](https://github.com/chatkn/Foodvisor-Submission_tests/tree/master/FoodDatabase)!  
 See you there!
 
