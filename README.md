@@ -4,6 +4,6 @@ You will find below :
 
 ## Getting Started
 
-In each folder, you will find a READ.ME file that give more details and instructions about the projects.  
+In each folder, you will find a README file that give more details and instructions about the projects.  
 See you there!
 
