@@ -2,6 +2,20 @@
 
 Database able to continuously maximize coverage and granularity of existing labeled data.
 
+## Context
+
+Two concepts:
+
+- **Coverage**: ratio of observed classes that are correctly categorized in ground truths, parent category included
+- **Granularity**: ratio of observed items that have distinct labels in the class structure
+
+Consider the following examples for an image classification problem:
+
+- **Coverage change**: given a certain labeling budget, your team first decides to define the class structure as follows: fruits, meat, fish, which satisfies users coverage expectations at $t$. Now at $t' > t$, users expects vegetables to be recognized.  
+- **Granularity change**: given a certain labeling budget, your team first decides to define the class structure as follows: vegetables, fruits, meat, fish, which satisfies users granularity expectations at $t$. Now at $t' > t$, users expects beef and pork to be distinguished.
+
+Hence the new for a flexible class structure to continuously adapt to changes in user expectations, while maintaining a reasonable labeling budget.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
